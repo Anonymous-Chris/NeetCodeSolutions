@@ -20,7 +20,7 @@ public class HashMapSolution {
             }
             hashMap.put(nums[i],i);
         }
-        return new int[]{0,0};
+        throw new IllegalArgumentException("No two sum solution");
     }
 }
 

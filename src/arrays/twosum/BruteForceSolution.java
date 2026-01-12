@@ -17,7 +17,7 @@ public class BruteForceSolution {
                 }
             }
         }
-        return new int[]{0, 0};
+        throw new IllegalArgumentException("No two sum solution");
     }
 }
 
