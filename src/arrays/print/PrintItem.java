@@ -13,4 +13,8 @@ public class PrintItem {
     public static void print(String item) {
         System.out.println(item);
     }
+    public static void print(boolean item) {
+        System.out.println(item);
+    }
+
 }
