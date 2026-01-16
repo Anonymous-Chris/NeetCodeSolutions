@@ -1,6 +1,6 @@
 package arrays.reversestring;
 
-import arrays.printarray.PrintArray;
+import arrays.print.PrintArray;
 
 public class InPlaceReversalSolution {
     public static void main(String[] args) {

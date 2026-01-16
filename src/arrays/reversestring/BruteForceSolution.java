@@ -1,6 +1,6 @@
 package arrays.reversestring;
 
-import arrays.printarray.PrintArray;
+import arrays.print.PrintArray;
 
 public class BruteForceSolution {
     public static void main(String[] args) {

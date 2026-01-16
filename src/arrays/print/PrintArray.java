@@ -1,4 +1,4 @@
-package arrays.printarray;
+package arrays.print;
 
 public class PrintArray {
     // Print array helper
