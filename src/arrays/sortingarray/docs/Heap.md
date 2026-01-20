@@ -17,7 +17,7 @@ Array: [10, 5, 2, 1, 3]
       /  \
      5    2
     / \
-1   3
+   1   3
 
 	•	Root = 10 (largest)
 	•	Every parent ≥ children
@@ -81,6 +81,20 @@ Example with [5, 10, 2, 1, 3]:
 •	Swap root & last → [2,1,3,5,10] → heapify root → [2,1,3,5,10]
 •	Swap root & last → [1,2,3,5,10] → sorted
 
+Build Max Heap → [10,5,2,1,3]
+
+Swap → [3,5,2,1,10]
+Heapify → [5,3,2,1,10] (since root is change, check with root with its child and rearrange)
+
+Swap → [1,3,2,5,10]
+Heapify → [3,1,2,5,10]
+
+Swap → [2,1,3,5,10]
+Heapify → no change
+
+Swap → [1,2,3,5,10]
+Done
+
 ⸻
 
 ✅ Key Points
@@ -89,3 +103,130 @@ Example with [5, 10, 2, 1, 3]:
 •	Min heap → smallest at root, used for priority queues
 •	Heap operations: insert, extract, heapify
 •	Heap Sort: build max heap → repeatedly extract max → O(n log n)
+
+Let’s do the same step-by-step walkthrough, but now using a Min Heap with the same input.
+
+Input
+
+[5, 10, 2, 1, 3]
+
+
+⸻
+
+🔽 Min Heap Rule
+
+Parent ≤ children
+
+⸻
+
+✅ Step 1: Build Min Heap
+
+Heapify bottom-up:
+
+        1
+       / \
+      3   2
+     / \
+    10  5
+
+Array representation:
+
+[1, 3, 2, 10, 5]
+
+✅ Correct Min Heap
+
+⸻
+
+🔁 Heap Sort Using Min Heap
+
+👉 This will sort the array in descending order
+
+⸻
+
+✅ Iteration 1
+
+Swap root & last
+
+[5, 3, 2, 10, 1]
+
+Heapify (heap size = 4)
+•	Compare 5 with children 3 and 2 → swap with 2
+
+[2, 3, 5, 10, 1]
+
+
+⸻
+
+✅ Iteration 2
+
+Swap root & last (heap size = 4 → index 3)
+
+[10, 3, 5, 2, 1]
+
+Heapify (heap size = 3)
+•	Compare 10 with children 3 and 5 → swap with 3
+
+[3, 10, 5, 2, 1]
+
+
+⸻
+
+⚠️ Iteration 3
+
+Swap root & last (heap size = 3 → index 2)
+
+[5, 10, 3, 2, 1]
+
+Heapify (heap size = 2)
+•	Compare 5 with child 10 → already valid
+
+[5, 10, 3, 2, 1]
+
+
+⸻
+
+⚠️ Iteration 4
+
+Swap root & last (heap size = 2 → index 1)
+
+[10, 5, 3, 2, 1]
+
+Heap size = 1 → stop
+
+⸻
+
+✅ Final Output (Descending Order)
+
+[10, 5, 3, 2, 1]
+
+
+⸻
+
+📌 Important Notes (INTERVIEW GOLD)
+
+🔹 Max Heap → Ascending sort
+
+🔹 Min Heap → Descending sort
+
+Because:
+•	Max heap removes largest first
+•	Min heap removes smallest first
+
+⸻
+
+⏱ Time & Space Complexity
+
+Phase	TC
+Build Heap	O(n)
+Sorting	O(n log n)
+Total	O(n log n)
+Space	O(1) (in-place)
+
+
+⸻
+
+🎯 One-Line Interview Summary ⭐
+
+“Using a min heap in heap sort places the smallest element at the end each iteration, producing a descending-order sorted array.”
+
+⸻
