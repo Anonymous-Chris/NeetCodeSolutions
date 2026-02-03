@@ -1,4 +1,4 @@
-package containsduplicatetwo;
+package slidingwindow.containsduplicatetwo;
 
 import arrays.print.PrintItem;
 
