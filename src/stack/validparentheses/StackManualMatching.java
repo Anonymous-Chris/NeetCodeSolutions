@@ -1,6 +1,6 @@
 package stack.validparentheses;
 
-import arraysandhashing.print.PrintItem;
+import print.PrintItem;
 
 import java.util.Stack;
 

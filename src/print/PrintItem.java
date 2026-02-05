@@ -1,4 +1,4 @@
-package arraysandhashing.print;
+package print;
 
 public class PrintItem {
     public static void print(int item) {

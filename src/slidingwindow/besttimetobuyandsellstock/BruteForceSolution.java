@@ -1,6 +1,6 @@
 package slidingwindow.besttimetobuyandsellstock;
 
-import arraysandhashing.print.PrintItem;
+import print.PrintItem;
 
 public class BruteForceSolution {
     static void main(String[] args) {

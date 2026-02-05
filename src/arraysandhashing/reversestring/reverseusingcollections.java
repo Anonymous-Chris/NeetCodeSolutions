@@ -1,6 +1,6 @@
 package arraysandhashing.reversestring;
 
-import arraysandhashing.print.PrintArray;
+import print.PrintArray;
 
 import java.util.Arrays;
 import java.util.Collections;

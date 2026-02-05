@@ -1,6 +1,6 @@
 package pointers.validpalindrometwo;
 
-import arraysandhashing.print.PrintItem;
+import print.PrintItem;
 
 public class TwoPointerSolution {
     public static void main(String[] args) {

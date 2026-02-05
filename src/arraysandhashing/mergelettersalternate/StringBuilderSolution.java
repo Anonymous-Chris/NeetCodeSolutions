@@ -1,6 +1,6 @@
 package arraysandhashing.mergelettersalternate;
 
-import arraysandhashing.print.PrintItem;
+import print.PrintItem;
 
 public class StringBuilderSolution {
     public static void main(String[] args) {

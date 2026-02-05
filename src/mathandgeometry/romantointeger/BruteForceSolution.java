@@ -1,6 +1,6 @@
 package mathandgeometry.romantointeger;
 
-import arraysandhashing.print.PrintItem;
+import print.PrintItem;
 
 import java.util.HashMap;
 

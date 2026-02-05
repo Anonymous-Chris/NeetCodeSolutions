@@ -1,6 +1,6 @@
 package bitmanipulation.singlenumber;
 
-import arraysandhashing.print.PrintItem;
+import print.PrintItem;
 
 public class BruteForceSolution {
     public static void main(String[] args) {

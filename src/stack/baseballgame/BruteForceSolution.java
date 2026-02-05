@@ -1,6 +1,6 @@
 package stack.baseballgame;
 
-import arraysandhashing.print.PrintItem;
+import print.PrintItem;
 
 import java.util.ArrayList;
 

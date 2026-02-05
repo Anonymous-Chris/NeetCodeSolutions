@@ -1,6 +1,6 @@
 package bitmanipulation.singlenumber;
 
-import arraysandhashing.print.PrintItem;
+import print.PrintItem;
 
 import java.util.Arrays;
 

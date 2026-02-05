@@ -1,6 +1,6 @@
 package mathandgeometry.romantointeger;
 
-import arraysandhashing.print.PrintItem;
+import print.PrintItem;
 
 public class OptimalSolution {
     static void main(String[] args) {

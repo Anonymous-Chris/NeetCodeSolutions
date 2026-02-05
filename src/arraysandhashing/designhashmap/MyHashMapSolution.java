@@ -1,4 +1,4 @@
-package pointers.hashmap;
+package arraysandhashing.designhashmap;
 
 import java.util.Iterator;
 import java.util.LinkedList;

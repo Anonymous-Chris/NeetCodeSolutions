@@ -1,4 +1,4 @@
-package pointers.hashset;
+package arraysandhashing.designhashset;
 
 import java.util.LinkedList;
 

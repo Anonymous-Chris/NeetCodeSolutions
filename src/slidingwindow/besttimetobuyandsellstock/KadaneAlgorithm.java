@@ -1,6 +1,6 @@
 package slidingwindow.besttimetobuyandsellstock;
 
-import arraysandhashing.print.PrintItem;
+import print.PrintItem;
 
 public class KadaneAlgorithm {
     static void main(String[] args) {

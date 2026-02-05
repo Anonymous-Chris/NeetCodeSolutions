@@ -1,6 +1,6 @@
 package arraysandhashing.sortcolors;
 
-import arraysandhashing.print.PrintArray;
+import print.PrintArray;
 
 public class DutchNationalFlagSolution {
     public static void main(String[] args) {

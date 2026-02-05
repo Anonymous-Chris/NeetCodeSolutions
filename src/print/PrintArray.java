@@ -1,4 +1,4 @@
-package arraysandhashing.print;
+package print;
 
 public class PrintArray {
     // Print array helper

@@ -1,6 +1,6 @@
 package arraysandhashing.sortcolors;
 
-import arraysandhashing.print.PrintArray;
+import print.PrintArray;
 
 import java.util.Arrays;
 
