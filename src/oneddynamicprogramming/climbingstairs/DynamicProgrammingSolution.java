@@ -1,6 +1,6 @@
 package oneddynamicprogramming.climbingstairs;
 
-import arrays.print.PrintItem;
+import arraysandhashing.print.PrintItem;
 
 public class DynamicProgrammingSolution {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package mathandgeometry.noncyclicalnumber;
 
-import arrays.print.PrintItem;
+import arraysandhashing.print.PrintItem;
 
 import java.util.HashSet;
 

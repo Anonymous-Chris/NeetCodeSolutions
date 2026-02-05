@@ -1,8 +1,6 @@
 package mathandgeometry.noncyclicalnumber;
 
-import arrays.print.PrintItem;
-
-import java.util.HashSet;
+import arraysandhashing.print.PrintItem;
 
 public class FloydCycleDetectionSolution {
     static void main(String[] args) {

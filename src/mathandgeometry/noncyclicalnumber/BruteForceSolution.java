@@ -1,6 +1,6 @@
 package mathandgeometry.noncyclicalnumber;
 
-import arrays.print.PrintItem;
+import arraysandhashing.print.PrintItem;
 
 public class BruteForceSolution {
     static void main(String[] args) {

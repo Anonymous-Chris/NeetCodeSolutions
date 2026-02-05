@@ -9,7 +9,7 @@ A LinkedList is a linear data structure where:
 •	Data
 •	Reference (pointer) to the next node
 
-👉 Unlike arrays, elements are NOT stored in contiguous memory.
+👉 Unlike arraysandhashing, elements are NOT stored in contiguous memory.
 
 
 
@@ -52,7 +52,7 @@ A → B → C
 🔹 Why Use LinkedList?
 
 ✅ Advantages
-•	Dynamic size (no resizing like arrays)
+•	Dynamic size (no resizing like arraysandhashing)
 •	Fast insertions & deletions (O(1) if node is known)
 •	Efficient for frequent modifications
 
@@ -122,4 +122,4 @@ Delete	        O(n)
 
 🔹 One-Line Interview Explanation ⭐
 
-“A linked list stores elements in nodes where each node points to the next one, allowing efficient insertions and deletions but slower access compared to arrays.”
+“A linked list stores elements in nodes where each node points to the next one, allowing efficient insertions and deletions but slower access compared to arraysandhashing.”

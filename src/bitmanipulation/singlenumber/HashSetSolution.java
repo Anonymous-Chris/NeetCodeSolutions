@@ -1,6 +1,6 @@
 package bitmanipulation.singlenumber;
 
-import arrays.print.PrintItem;
+import arraysandhashing.print.PrintItem;
 
 import java.util.HashSet;
 

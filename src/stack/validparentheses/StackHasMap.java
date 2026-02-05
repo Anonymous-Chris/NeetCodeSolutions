@@ -1,6 +1,6 @@
 package stack.validparentheses;
 
-import arrays.print.PrintItem;
+import arraysandhashing.print.PrintItem;
 
 import java.util.HashMap;
 import java.util.Stack;

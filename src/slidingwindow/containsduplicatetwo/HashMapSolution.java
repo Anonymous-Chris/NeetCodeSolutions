@@ -1,6 +1,6 @@
 package slidingwindow.containsduplicatetwo;
 
-import arrays.print.PrintItem;
+import arraysandhashing.print.PrintItem;
 
 import java.util.HashMap;
 

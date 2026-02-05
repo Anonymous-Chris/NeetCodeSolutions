@@ -1,6 +1,6 @@
 package pointers.validpalindrome;
 
-import arrays.print.PrintItem;
+import arraysandhashing.print.PrintItem;
 
 public class TwoPointersNoExtraSpaceSolution {
     public static void main(String[] args) {

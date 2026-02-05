@@ -1,6 +1,6 @@
 package oneddynamicprogramming.climbingstairs;
 
-import arrays.print.PrintItem;
+import arraysandhashing.print.PrintItem;
 
 public class BruteForceSolution {
     public static void main(String[] args) {

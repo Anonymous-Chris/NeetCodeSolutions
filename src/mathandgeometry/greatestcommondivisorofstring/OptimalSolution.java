@@ -1,6 +1,6 @@
 package mathandgeometry.greatestcommondivisorofstring;
 
-import arrays.print.PrintItem;
+import arraysandhashing.print.PrintItem;
 
 public class OptimalSolution {
     public static void main(String[] args) {

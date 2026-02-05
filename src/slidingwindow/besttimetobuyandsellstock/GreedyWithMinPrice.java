@@ -1,6 +1,6 @@
 package slidingwindow.besttimetobuyandsellstock;
 
-import arrays.print.PrintItem;
+import arraysandhashing.print.PrintItem;
 
 public class GreedyWithMinPrice {
     static void main(String[] args) {
