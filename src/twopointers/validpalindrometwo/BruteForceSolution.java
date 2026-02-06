@@ -1,4 +1,4 @@
-package pointers.validpalindrometwo;
+package twopointers.validpalindrometwo;
 
 import print.PrintItem;
 

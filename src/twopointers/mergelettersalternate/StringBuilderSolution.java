@@ -1,4 +1,4 @@
-package arraysandhashing.mergelettersalternate;
+package twopointers.mergelettersalternate;
 
 import print.PrintItem;
 

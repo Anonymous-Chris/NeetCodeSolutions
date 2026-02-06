@@ -1,4 +1,4 @@
-package arraysandhashing.reversestring;
+package twopointers.reversestring;
 
 import print.PrintArray;
 

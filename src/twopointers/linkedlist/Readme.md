@@ -58,7 +58,7 @@ A → B → C
 
 ❌ Disadvantages
 •	No random access (must traverse → O(n))
-•	Extra memory for pointers
+•	Extra memory for twopointers
 •	Cache-unfriendly
 
 🔹 LinkedList vs Array (Important)
