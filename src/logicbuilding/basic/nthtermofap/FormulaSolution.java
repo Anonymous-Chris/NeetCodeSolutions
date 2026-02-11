@@ -1,6 +1,6 @@
 package logicbuilding.basic.nthtermofap;
 
-public class BruteForceSolution {
+public class FormulaSolution {
     public static void main(String[] args)
     {
         int a1 = 2, a2 = 3;
@@ -10,13 +10,6 @@ public class BruteForceSolution {
 
     private static int nthTermOfAP(int a1, int a2, int n) {
         int difference = a2 - a1;
-        int result = 0;
-        for (int i = 1; i < n; i++) {
-            result = a1 + difference;
-            a1 = result;
-        }
-        return result;
+        return a1 + (n - 1) * difference;
     }
 }
-// Time Complexity: O(n)
-// Space Complexity: O(1)
