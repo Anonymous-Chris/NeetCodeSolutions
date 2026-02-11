@@ -13,3 +13,5 @@ public class FormulaSolution {
         return a1 + (n - 1) * difference;
     }
 }
+// Time Complexity: O(1)
+// Space Complexity: O(1)
