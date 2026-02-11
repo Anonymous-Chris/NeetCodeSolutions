@@ -28,3 +28,58 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+.gitignore
+
+### Logicbuilding - ignore specific packages added by assistant
+# easy
+/src/logicbuilding/easy/addtwofraction/
+/src/logicbuilding/easy/armstrongnumber/
+/src/logicbuilding/easy/checkpower/
+/src/logicbuilding/easy/dayoftheweek/
+/src/logicbuilding/easy/decimaltobinary/
+/src/logicbuilding/easy/digitroot/
+/src/logicbuilding/easy/distancebetweentwopoints/
+/src/logicbuilding/easy/factorialofnumber/
+/src/logicbuilding/easy/gcdorhcf/
+/src/logicbuilding/easy/lcm/
+/src/logicbuilding/easy/nthfibonaccinumber/
+/src/logicbuilding/easy/nthtermseries/
+/src/logicbuilding/easy/overlappingrectangles/
+/src/logicbuilding/easy/paircubecount/
+/src/logicbuilding/easy/palindromenumber/
+/src/logicbuilding/easy/perfectnumber/
+/src/logicbuilding/easy/primetesting/
+/src/logicbuilding/easy/reversedigits/
+/src/logicbuilding/easy/sumofdigits/
+/src/logicbuilding/easy/validtriangle/
+
+# medium
+/src/logicbuilding/medium/allfactors/
+/src/logicbuilding/medium/binomialcoefficient/
+/src/logicbuilding/medium/computencr/
+/src/logicbuilding/medium/computenpr/
+/src/logicbuilding/medium/divisibilityby11/
+/src/logicbuilding/medium/divisibilityby13/
+/src/logicbuilding/medium/divisibleby4/
+/src/logicbuilding/medium/fractiontorecurringdecimal/
+/src/logicbuilding/medium/kthdigitinapower/
+/src/logicbuilding/medium/largestprimefactor/
+/src/logicbuilding/medium/modularexponentiation/
+/src/logicbuilding/medium/nextpermutation/
+/src/logicbuilding/medium/nthcatalannumber/
+/src/logicbuilding/medium/pascaltriangle/
+/src/logicbuilding/medium/powerset/
+/src/logicbuilding/medium/primefactorization/
+/src/logicbuilding/medium/recurringsequenceinfraction/
+/src/logicbuilding/medium/squareroot/
+/src/logicbuilding/medium/threedivisors/
+
+# hard
+/src/logicbuilding/hard/clockangle/
+/src/logicbuilding/hard/eightpuzzle/
+/src/logicbuilding/hard/eulerstotientfunction/
+/src/logicbuilding/hard/josephusproblem/
+/src/logicbuilding/hard/ratandpoisoned/
+/src/logicbuilding/hard/sieveoferatosthenes/
+/src/logicbuilding/hard/superprime/
+/src/logicbuilding/hard/towerofhanoi/
