@@ -27,3 +27,5 @@ public class BruteForceSolution {
         return overlapWidth > 0 && overlapHeight > 0;
     }
 }
+//TC: O(1) - The algorithm performs a constant number of operations to determine if the rectangles overlap.
+//SC: O(1) - The algorithm uses a constant amount of space to store the coordinates of the intersection rectangle and the overlap dimensions.

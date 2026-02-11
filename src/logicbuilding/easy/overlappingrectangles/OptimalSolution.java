@@ -17,3 +17,5 @@ public class OptimalSolution {
                 r1[3] > r2[1]);   // r1's bottom edge is below r2's top edge
     }
 }
+//TC: O(1) - The algorithm performs a constant number of operations to determine if the rectangles overlap.
+//SC: O(1) - The algorithm uses a constant amount of space to store the coordinates of the rectangles and the overlap dimensions.
