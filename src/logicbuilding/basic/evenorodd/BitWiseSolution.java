@@ -1,4 +1,4 @@
-package logicbuilding.evenorodd;
+package logicbuilding.basic.evenorodd;
 
 public class BitWiseSolution {
     static void main(String[] args) {

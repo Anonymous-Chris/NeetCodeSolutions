@@ -1,4 +1,4 @@
-package logicbuilding.sumofnnaturalnumbers;
+package logicbuilding.basic.sumofnnaturalnumbers;
 
 import print.PrintItem;
 

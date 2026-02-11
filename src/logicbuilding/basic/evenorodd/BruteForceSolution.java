@@ -1,4 +1,4 @@
-package logicbuilding.evenorodd;
+package logicbuilding.basic.evenorodd;
 
 public class BruteForceSolution {
     static void main(String[] args) {

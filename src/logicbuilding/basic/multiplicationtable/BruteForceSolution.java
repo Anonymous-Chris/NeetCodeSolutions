@@ -1,4 +1,4 @@
-package logicbuilding.multiplicationtable;
+package logicbuilding.basic.multiplicationtable;
 
 public class BruteForceSolution {
     static void main(String[] args) {

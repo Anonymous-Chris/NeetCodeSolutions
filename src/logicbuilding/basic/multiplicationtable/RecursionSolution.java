@@ -1,4 +1,4 @@
-package logicbuilding.multiplicationtable;
+package logicbuilding.basic.multiplicationtable;
 
 public class RecursionSolution {
     static void main(String[] args) {
